@@ -1,0 +1,21 @@
+add_newline = true
+
+[shell]
+disabled = false
+
+[memory_usage]
+disabled = false
+threshold = 50
+symbol = "🚀"
+format = "$symbol via [${ram_pct} | ${ram}]($style)"
+
+[git_status]
+disabled = true
+
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
+[nodejs]
+symbol = "🐉 "
